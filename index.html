@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Menu</title>
+</head>
+<body>
+    <div class="action">
+        <div class="profile" onclick="menuToggle();">
+            <img src="img/photo-perfil.png" alt="Perfil">
+        </div>
+        <div class="menu">
+            <h3>Qualquer um  =)<br><span>Web Designer</span></h3>
+            <ul>
+                <li><img src="img/usuario-de-comentarios.png" alt=""><a href="#">Meu perfil</a></li>
+                <li><img src="img/grampo.png" alt=""><a href="#">Arquivos</a></li>
+                <li><img src="img/mochila.png" alt=""><a href="#">Configurações</a></li>
+                <li><img src="img/troca.png" alt=""><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function menuToggle(){
+            const toggleMenu = document.querySelector('.menu')
+            toggleMenu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
