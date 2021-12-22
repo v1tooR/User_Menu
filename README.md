@@ -6,3 +6,4 @@ A side menu that can be adapted and used for websites, where users can have an a
 
 # Preview
 
+<img src="cap.png">
